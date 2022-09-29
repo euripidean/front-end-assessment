@@ -2,6 +2,8 @@ html, body {
     width: 100%;
     height: auto;
     font-family: 'Helvetica','sans-serif';
+    background-color: #F7D4BC;
+    color: #222;
 }
 
 main {
@@ -10,6 +12,7 @@ main {
 
 h1 {
     font-size: 32px;
+    margin-bottom: 0;
 }
 
 .container {
@@ -25,8 +28,40 @@ section {
     flex-direction: column;
     justify-content: center;
     border: 1px solid black;
+    background-color: #FAE3E3;
+}
+
+input {
+    align-self: flex-end;
+    margin: 0.5em;
+    width: 90%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#box-details h4 {
+    font-size: 1.5em;
+}
+
+#box-details div, #box-details h4, #box-details p {
+    margin: 0;
+}
+
+#box-details p {
+    color: #846B8A;
 }
 
 .box {
-    padding: 20px;
+    padding: 10px;
+}
+
+#colours h2 {
+    margin: 0;
+}
+
+footer p {
+    text-align: center;
+    color: #846B8A;
 }

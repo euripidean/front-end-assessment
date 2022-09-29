@@ -13,41 +13,42 @@
           <h1>Jane Harrison</h1>
           <p>FEW Assessment</p>
         </header>
-        <!-- Contents of box -->
       </section>
-      <section class="box">
+      <section class="box" id="input-section">
         <label>
           Width:
-        <input type="number" name="Width">
+        <input type="number" class="width" value="100">
       </label>
       <label>
         Height:
-        <input type="number" name="Height">
+        <input type="number" class="height" value="100">
       </label>
       <label>
         Colour:
-        <input type="color" name="Colour">
+        <input type="color" class="colour">
       </label>
       </section>
-      <section class="box">
+      <section class="box" id="box-details">
         <h4>Width</h4>
+        <div id="width-text"></div>
         <!-- Width goes here -->
         <h4>Height</h4>
+        <div id="height-text"></div>
         <!-- Height goes here -->
         <h4>Colour</h4>
+        <div id="colour-text"></div>
         <!-- Colour goes here -->
       </section>
-      <section class="box">
+      <section class="box" id="colours">
         <h2>Colour</h2>
         <div id="colour-box">
           <!-- Colour box goes here. -->
         </div>
       </section>
     </div>
-
     </main>
     <footer>
-
+     <p>Jane Harrison, 2022.</p>
     </footer>
     <script src="scripts.js" type="module"></script>
   </body>
