@@ -1,0 +1,32 @@
+html, body {
+    width: 100%;
+    height: auto;
+    font-family: 'Helvetica','sans-serif';
+}
+
+main {
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.box {
+    padding: 20px;
+}
